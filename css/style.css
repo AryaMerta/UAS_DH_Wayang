@@ -1,6 +1,7 @@
 .navbar{
-    background-color: black;
-    border-bottom: 1px solid gray;
+    background: #1B3764;
+    /* border-bottom: 1px solid gray; */
+    height: 80px;
 }
 
 .slide-container {
@@ -72,4 +73,71 @@
 }
 #slider-span3:target ~.image-slider{
     left:-20%;
+}
+
+.judul{
+    color: #F9F9F9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.bg-tempat{
+    background-image: url("../image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 626px;
+}
+.bg-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6E016;
+    width: 862px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.txt-1{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ds{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    color: #000;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.df-pl{
+    background: #E4F2FF;
+    width: auto;
+    height: 440px;
+    flex-shrink: 0;
+}
+.txt-h3{
+    color: #000;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+a {
+    text-decoration: none;
+  }
+.card-wrapper {
+    justify-content: center;
+    display: flex;
 }
